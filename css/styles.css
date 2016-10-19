@@ -1,0 +1,60 @@
+.menu_top ul.menu > li > a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.menu_top ul.menu > li > a:visited {
+	color: #525252;
+	text-decoration: none;
+}
+.sidebar .menu a:hover {
+	color: #525252;
+	text-decoration: none;
+}
+.sidebar .menu a:visited {
+	color: #525252;
+	text-decoration: none;
+}
+.sidebar .menu hr:hover {
+	display: none;
+}
+.sidebar .menu hr:visited {
+	background-color: #525252;
+}
+.items .row button:hover {
+	background-color: #bdbdbc;;
+}
+.items .row button:visited {
+	background-color: transparent;
+	border: 1px solid #525252;
+}
+.items .row button a:visited {
+	text-transform: uppercase;
+	color: #525252;
+	text-decoration: none;
+}
+.footer .top:hover {
+	background-image: url(../img/hover_top_b.png);
+	background-repeat: no-repeat;
+	height: 58px;
+	width: 58px;
+}
+.footer .top:visited {
+	background-image: url(../img/pushed_top_b.png);
+	background-repeat: no-repeat;
+	height: 58px;
+	width: 58px;
+}
+@media (min-width: 980px) {
+	.footer .top:hover {
+	background-image: url(../img/hover_top_b.png);
+	background-repeat: no-repeat;
+	height: 58px;
+	width: 58px;
+	}
+	.footer .top:visited {
+		background-image: url(../img/pushed_top_b.png);
+		background-repeat: no-repeat;
+		height: 58px;
+		width: 58px;
+	}
+}

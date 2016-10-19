@@ -1,0 +1,496 @@
+html {
+	background-image: url(../pic/BG.png);
+	background-repeat: inherit;
+}
+html .cf:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+body {
+	font-family: Verdana, Tahoma, Arial;
+}
+html body {
+	margin: 0 auto;
+}
+
+.header {
+	width: 100%;
+	padding: 20px 0 0 0;
+	color: #fff;
+	font-size: .7em;
+	text-align: center;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.logo {
+	display: block;
+	margin: 0 auto 20px auto;
+	width: 114px;
+	height: 57px;
+	background-image: url(../img/logo.png);
+	background-repeat: no-repeat; 
+	position: relative;
+}
+.header span {
+	font-size: 1.3em;
+	line-height: 1.3em;
+	font-weight: 700;
+}
+.header .ph_add {
+	margin: 14px auto 20px auto;
+}
+.menu_top ul.menu > li {
+	margin: 20px auto;
+}
+.menu_top ul.menu > li > a {
+	display: block;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+}
+.menu_top ul.menu > li:first-child {
+	margin-top: 0;
+}
+.sidebar .menu {
+	padding: 10px 0;
+	display: block;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.sidebar .menu hr {
+	background-color: black;
+	height: 1px;
+	width: 50px;
+	border: none;
+}
+.sidebar .menu a {
+	text-decoration: none;
+	text-align: center;
+	font-size: .8em;
+	color: #000;
+	line-height: 1.3em;
+}
+.catalog .ancor {
+	padding: 30px 0 0 0;
+	text-align: center;
+	font-size: .8em;
+}
+.catalog .ancor a {
+	color: #fff;
+	text-decoration: none;
+}
+.catalog .ancor hr {
+	background-color: #fff;
+	height: 1px;
+	width: 50px;
+	border: none;
+}
+.items {
+	position: relative;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.items .row {
+	margin: 10px auto;
+	padding-bottom: 20px;
+	display: block;
+	position: relative;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 5px;
+	box-sizing: border-box;
+}
+.row .coffee {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.row .choco {
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.row .sweets {
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.catalog .items .new {
+  position: absolute;
+  background-image: url(../img/new.png);
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 80px;
+  top: 0;
+  right: 0;
+}
+.items .row button {
+	background-color: transparent;
+	border-radius: 5px;
+	border: #000 1px solid;
+	padding: 5px 30px;
+}
+.items .row button a {
+	text-transform: uppercase;
+	color: #000;
+	text-decoration: none;
+}
+.prices {
+	width: 90%;
+	float: right;
+	margin: 10px auto;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,.8);
+	border-radius: 5px;
+}
+.prices table {
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid #000;
+	border-radius: 5px;
+}
+.prices tr th {
+	font-size: .7em;
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 1px;
+}
+.prices tr td {
+	font-size: .7em;
+	font-family: Verdana, Tahoma, Sans-serif;
+	text-align: left;
+	border: 1px solid #000;
+	line-height: 10px;
+	padding: 1px;
+}
+.prices tr td:last-child {
+	text-align: center;
+}
+.footer {
+	width: 100%;
+	padding: 20px 0 20px 0;
+	color: #fff;
+	font-size: .7em;
+	line-height: 1.3em;
+	text-align: center;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.footer a {
+	color: #fff;
+}
+.footer .top {
+	background-image: url(../img/b_top.png);
+	background-repeat: no-repeat;
+	height: 58px;
+	width: 58px;
+	position: relative;
+	float: right;
+	right: 0;
+	bottom: 110px;
+}
+.hidden  {
+    display: none;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: black;
+}
+.hidden .callback form {
+	display: none;
+	width: 300px;
+	background-color: rgba(255,255,255,.8);
+	color: #000;
+	font-family: Verdana;
+	font-size: 1em;
+	text-align: center;
+	margin: 100px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.hidden .callback form input {
+	width: 80%;
+	font-size: 1em;
+	padding: 10px;
+	margin: 10px 0;
+}
+.hidden .callback form p span {
+font-size: 1.3em;
+}
+.hidden .callback button {
+	width: 80%;
+	border: 1px solid #000;
+	border-radius: 5px;
+	outline: none;
+	color: #000;
+	font-size: 1em;
+	font-family: Verdana, Tahoma, Sans-serif;
+	text-align: center;
+	margin: 20px 0;
+	padding: 10px;
+}
+
+.hidden .feedback form {
+	display: block;
+	width: 300px;
+	background-color: rgba(255,255,255,.8);
+	color: #000;
+	font-family: Verdana;
+	font-size: 1em;
+	text-align: center;
+	margin: 100px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.hidden .feedback form input {
+	width: 80%;
+	font-size: 1em;
+	padding: 10px;
+	margin: 10px 0;
+}
+.hidden .feedback form textarea {
+	width: 80%;
+	font-size: 1em;
+	padding: 10px;
+	margin: 10px 0;
+}
+.hidden .feedback form p span {
+font-size: 1.3em;
+}
+.hidden .feedback button {
+	width: 80%;
+	border: 1px solid #000;
+	border-radius: 5px;
+	outline: none;
+	color: #000;
+	font-size: 1em;
+	font-family: Verdana, Tahoma, Sans-serif;
+	text-align: center;
+	margin: 20px 0;
+	padding: 10px;
+}
+
+@media (min-width: 980px) {
+	.header {
+		position: relative;
+		width: 960px;
+		height: 85px;
+		padding: 10px 0;
+		margin-top: 10px;
+	}
+	.header .logo {
+		margin: 0 80px 0 0;
+		position: relative;
+		float: left;
+	}
+	.header .ph_add {
+		position: relative;
+		float: right;
+		width: 225px;
+		margin: 0 auto;
+		text-align: right;
+	}
+	.header .menu_top {
+	position: relative;
+	margin: 30px 10px 0 60px;
+		
+	}
+	.header .menu_top ul.menu{
+		position: relative;
+		float: left;
+		width: 490px;
+	}
+	.header .menu_top ul.menu > li {
+		float: left;
+		margin: 0 0 0 40px;
+		vertical-align: middle;
+	}
+	.wrapper {
+		width: 960px;
+		margin: 0 auto;
+	}
+	.sidebar {
+		width: 225px;
+		float: left;
+	}
+	.sidebar .menu {
+		display: inline-block;
+		width: 225px;
+		position: relative;
+		margin: 20px auto;
+	}
+	.sidebar .menu hr, li {
+		margin: 8px auto 12px 20px;
+		text-align: left;
+	}
+	.catalog {
+		width: 710px;
+		float: right;
+		margin: 0 auto;
+	}
+	.catalog .ancor {
+		position: relative;
+		display: inline-block;
+		text-align: left;
+		width: 700px;
+		margin: 0 auto;
+		padding-left: 15px;
+	}
+	.catalog .ancor hr {
+		text-align: left;
+		margin: 8px auto 12px 0;
+	}
+	.catalog .items .row {
+	    position: relative;
+		display: block;
+		float: left;
+		width: 220px;
+		margin-left: 10px;
+	}
+	.prices {
+			width: 660px;
+			float: right;
+			margin: 20px auto;
+			padding: 20px 30px;
+			background-color: rgba(255,255,255,.8);
+			border-radius: 5px;
+		}
+		.prices table {
+			width: 100%;
+			border-collapse: collapse;
+			border: 1px solid #000;
+			border-radius: 5px;
+		}
+		.prices tr th {
+			text-transform: uppercase;
+			font-weight: 700;
+			padding: 5px 10px;
+		}
+		.prices tr td {
+			font-size: .8em;
+			font-family: Verdana, Tahoma, Sans-serif;
+			text-align: left;
+			border: 1px solid #000;
+			line-height: 30px;
+			padding: 5px 10px;
+		}
+		.prices tr td:last-child {
+			text-align: center;
+		}
+	.footer {
+		position: relative;
+		width: 960px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	.footer ul {
+		width: 100%;
+	}
+	.footer ul li {
+		width: 30%;
+	}
+	.footer ul li:first-child {
+		float: left;
+	}
+	.footer ul >li {
+		float: right;
+	}
+	.footer .top {
+		position: relative;
+		float: right;
+		background-image: url(../img/b_top.png);
+		background-repeat: no-repeat;
+		height: 58px;
+		width: 58px;
+		bottom: 0;
+  		right: 0;
+	}
+	.hidden  {
+	    display: none;
+		position: fixed;
+		height: 100%;
+		width: 960px;
+		top: 0;
+		left: 0;
+		background-color: #000;
+	}
+	.hidden .callback form {
+		display: none;
+		width: 300px;
+		background-color: rgba(255,255,255,.8);
+		color: #000;
+		font-family: Verdana;
+		font-size: 1em;
+		text-align: center;
+		margin: 100px;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.hidden .callback form input {
+		width: 80%;
+		font-size: 1em;
+		padding: 10px;
+		margin: 10px 0;
+	}
+	.hidden .callback form p span {
+	font-size: 1.3em;
+	}
+	.hidden .callback button {
+		width: 80%;
+		border: 1px solid #000;
+		border-radius: 5px;
+		outline: none;
+		color: #000;
+		font-size: 1em;
+		font-family: Verdana, Tahoma, Sans-serif;
+		text-align: center;
+		margin: 20px 0;
+		padding: 10px;
+	}
+	.hidden .feedback {
+		display: none;
+	}
+	.hidden .feedback form {
+		display: block;
+		width: 300px;
+		background-color: rgba(255,255,255,.8);
+		color: #000;
+		font-family: Verdana;
+		font-size: 1em;
+		text-align: center;
+		margin: 100px;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.hidden .feedback form input {
+		width: 80%;
+		font-size: 1em;
+		padding: 10px;
+		margin: 10px 0;
+	}
+	.hidden .feedback form textarea {
+		width: 80%;
+		font-size: 1em;
+		padding: 10px;
+		margin: 10px 0;
+	}
+	.hidden .feedback form p span {
+	font-size: 1.3em;
+	}
+	.hidden .feedback button {
+		width: 80%;
+		border: 1px solid #000;
+		border-radius: 5px;
+		outline: none;
+		color: #000;
+		font-size: 1em;
+		font-family: Verdana, Tahoma, Sans-serif;
+		text-align: center;
+		margin: 20px 0;
+		padding: 10px;
+	}
+}
